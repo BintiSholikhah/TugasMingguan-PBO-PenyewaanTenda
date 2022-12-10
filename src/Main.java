@@ -1,5 +1,4 @@
 public class Main {
-
     Main(){
         System.out.println("Program Dibuat oleh Binti Sholikhah");
     }
@@ -23,7 +22,8 @@ public class Main {
         aplikasi();
         // pemanggilan
         ucapin("=========================================");
-        System.out.println();
+        Data pa = new Penyewa(); //pemanggilan abstract
+        pa.tampil();
         Penyewa penyewa = new Penyewa();
         penyewa.input_data();
         System.out.println();
@@ -32,6 +32,8 @@ public class Main {
         Penyewaan penyewaan1 = new Penyewaan();
         penyewaan1.input_data();
         penyewaan1.pilih_tenda();
+        Data ptgs = new Petugas(); //pemanggilan abstract
+        ptgs.tampil();
         System.out.println("ID Petugas        : " + petugas1.getId_petugas());
         System.out.println("Nama Petugas      : " + petugas1.getNama_petugas());
         System.out.println("======================================");

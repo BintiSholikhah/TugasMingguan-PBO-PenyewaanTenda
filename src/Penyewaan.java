@@ -48,17 +48,17 @@ public class Penyewaan {
             tenda1.jenis="Naturehike";
             tenda1.harga=800000;
 
-        } else if(pilihan==21){
+        } else if(pilihan==20){
             tenda1.no_tenda=21;
             tenda1.jenis="Tipe A";
             tenda1.harga=8000000;
-        } else if(pilihan==22){
+        } else if(pilihan==21){
             tenda1.no_tenda=22;
             tenda1.jenis="Tipe B";
             tenda1.harga=10000000;
         }
-        else if(pilihan==23){
-            tenda1.no_tenda=22;
+        else if(pilihan==22){
+            tenda1.no_tenda=23;
             tenda1.jenis="Tipe C";
             tenda1.harga=12000000;
         }else{

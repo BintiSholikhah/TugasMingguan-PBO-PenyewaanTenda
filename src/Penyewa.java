@@ -1,8 +1,10 @@
 import java.util.Scanner;
-public class Penyewa {
-    	Penyewa(){
-            System.out.println("MASUKKAN DATA PENYEWA");
-        }
+public class Penyewa extends Data {
+
+    @Override
+    void tampil() { // DARI CLASS ABSTRACT
+        System.out.println("## MASUKKAN DATA PENYEWA ##");
+    }
 
     int id_anggota;
         String nama_anggota;

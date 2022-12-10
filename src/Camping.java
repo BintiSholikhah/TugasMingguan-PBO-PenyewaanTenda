@@ -1,6 +1,7 @@
 public class Camping extends Tenda{
     String[] merek = {"Eiger Shira", "Consina Magn", "Naturehikee"};
-    void view_data(){
+
+     void view_data(){
         harga= 400000;
         System.out.println("--------------------------------------");
         System.out.println("       LIST TENDA CAMPING");

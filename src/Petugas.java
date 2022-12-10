@@ -1,8 +1,13 @@
-public class Petugas {
+public class Petugas extends Data {
     private int id_petugas;
     private String nama_petugas;
     public int getId_petugas() {
         return id_petugas;
+    }
+
+    @Override
+    void tampil() { // DARI CLASS ABSTRACT
+        System.out.println("\nPenanggung Jawab");
     }
 
     public void setId_petugas(int id_petugas) {
